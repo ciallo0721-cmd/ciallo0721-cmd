@@ -6,6 +6,8 @@
 
 - 弗雷尔卓德人
 
+- 嘉豪(bushi)
+
 # 联系方式
 
 - **QQ**: 3627742771
@@ -19,3 +21,5 @@
 - **Discord** [Ciallo0721](https://discord.gg/fx4N3jg6)
 
 - **GitHub** [Ciallo0721-cmd](https://github.com/ciallo0721-cmd)
+
+- **Steam** [aaa关注塔菲喵](https://steamcommunity.com/profiles/76561199473709076/)
