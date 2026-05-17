@@ -10,6 +10,7 @@
 
 - **INFP**
 
+- **个人网站**[个人网站](91vip.xn--32v.ink)
 
 # 联系方式
 
@@ -29,4 +30,4 @@
 
 - **YouTube** [Ciallo0721-cmd](https://www.youtube.com/@ciallo0721-cmd)
 
-**FaceBook** [moyucmd](https://www.facebook.com/profile.php?id=61590168321280)
+- **FaceBook** [moyucmd](https://www.facebook.com/profile.php?id=61590168321280)
