@@ -119,7 +119,7 @@
 | **前端** | 原生 JS + HTML5 · 无框架洁癖 |
 | **工具链** | VS Code · GitHub Desktop · PowerShell |
 | **部署** | GitHub Pages · GitHub Actions |
-| **平台** | Windows 10/11 · Android (荣耀 ANY-AN00) |
+| **平台** | Windows 10/11 |
 
 ---
 
