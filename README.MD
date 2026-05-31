@@ -13,11 +13,11 @@
 
 ```
 🎓 在校初中生 + 独立开发者
-🌏 来自中国
+🌏 来自中国🇨🇳
 🧠 MBTI: INFP
-🎮 League of Legends 弗雷尔卓德人
-🐱 永雏塔菲/VTuber 文化重度爱好者
+🐱 VTuber 文化重度爱好者
 💻 全栈野路子 · AI 工具 · 浏览器插件 · Python 脚本
+🥰 雏草姬
 ```
 
 - 喜欢做一些**没人做、但有人需要**的小工具
@@ -61,16 +61,6 @@
 - 专为雏草姬设计，一键让塔菲出现在任何地方喵
 
 [![GitHub](https://img.shields.io/badge/GitHub-taffyineverything-black?style=flat-square&logo=github)](https://github.com/ciallo0721-cmd/taffyineverything)
-
----
-
-### 🔐 Python-Encryption-and-Decryption-Program — 加解密工具
-> 纯 Python 实现的文件加密/解密工具
-
-- 支持多种加密算法，一键加解密文件
-- 轻量，开箱即用
-
-[![GitHub](https://img.shields.io/badge/GitHub-Encryption-black?style=flat-square&logo=github)](https://github.com/ciallo0721-cmd/Python-Encryption-and-Decryption-Program)
 
 ---
 
