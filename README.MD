@@ -7,7 +7,7 @@
 [![Website](https://img.shields.io/badge/Website-91vip.xn--32v.ink-blue?style=flat-square)](https://91vip.xn--32v.ink)
 [![Bilibili](https://img.shields.io/badge/Bilibili-丛雨丸--pink?style=flat-square&logo=bilibili)](https://space.bilibili.com/478967440)
 
-小号：ciallo0721-ccmd（https://github.com/Ciallo0721-ccmd/）
+小号：[ciallo0721-ccmd](https://github.com/Ciallo0721-ccmd/)
 
 ---
 
