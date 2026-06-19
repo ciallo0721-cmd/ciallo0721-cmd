@@ -4,7 +4,7 @@
 弗雷尔卓德人 · 嘉豪(bushi) · **INFP** · 雏草姬
 
 [![GitHub followers](https://img.shields.io/github/followers/ciallo0721-cmd?style=flat-square&color=ff6b9d)](https://github.com/ciallo0721-cmd)
-[![Website](https://img.shields.io/badge/Website-91vip.xn--32v.ink-blue?style=flat-square)](https://91vip.xn--32v.ink)
+[![Website](https://img.shields.io/badge/Website-ciallo0721--cmd.top-blue?style=flat-square)](https://ciallo0721-cmd.top)
 [![Bilibili](https://img.shields.io/badge/Bilibili-丛雨丸--pink?style=flat-square&logo=bilibili)](https://space.bilibili.com/478967440)
 
 小号：[ciallo0721-ccmd](https://github.com/Ciallo0721-ccmd/)
@@ -44,14 +44,14 @@
 
 ---
 
-### 🌐 91vip.xn--32v.ink — 个人站点 & 博客
+### 🌐 ciallo0721-cmd.top — 个人站点 & 博客
 > 主站 + GitHub Pages 博客，持续更新中
 
 - 20+ 篇技术博客（含 AI / VTuber / 开发笔记）
 - 内置工具页：VTuber 人格测试、动漫色彩分析器、Ren'Py 模板生成器、VTuber 名称生成器
 - 自定义视频播放器 · 代码高亮 · 图片放大 · SEO 优化
 
-[![Website](https://img.shields.io/badge/访问站点-91vip.森.ink-brightgreen?style=flat-square)](https://91vip.xn--32v.ink)
+[![Website](https://img.shields.io/badge/访问站点-ciallo0721--cmd.top-brightgreen?style=flat-square)](https://ciallo0721-cmd.top)
 
 ---
 
@@ -98,7 +98,7 @@
 
 - 3 档难度：简单 / 正常（推荐）/ 复杂（90 题）
 - 支持 NSFW 敏感题勾选，* 标记多选题
-- 在线体验：[https://91vip.xn--32v.ink/tools/vtuber-personality-test/](https://91vip.xn--32v.ink/tools/vtuber-personality-test/)
+- 在线体验：[https://ciallo0721-cmd.top/tools/vtuber-personality-test/](https://ciallo0721-cmd.top/tools/vtuber-personality-test/)
 
 ---
 
@@ -134,7 +134,7 @@
 
 ## 个人网站 / Website
 
-🌐 **[https://91vip.xn--32v.ink](https://91vip.xn--32v.ink)**
+🌐 **[https://ciallo0721-cmd.top](https://ciallo0721-cmd.top)**
 
 含博客、工具集、项目展示，持续施工中喵
 
