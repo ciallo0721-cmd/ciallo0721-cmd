@@ -127,6 +127,7 @@
 | **YouTube** | [Ciallo0721-cmd](https://www.youtube.com/@ciallo0721-cmd) |
 | **Discord** | [Ciallo0721](https://discord.gg/fx4N3jg6) |
 | **Steam** | [aaa关注塔菲喵](https://steamcommunity.com/profiles/76561199473709076/) |
+| **爱发电** | [赞助我喵～](https://ifdian.net/a/ciallo0721-cmd) |
 | **Facebook** | [moyucmd](https://www.facebook.com/profile.php?id=61590168321280) |
 | **Instagram** | [@moyu0721cmd](https://www.instagram.com/moyu0721cmd/) |
 
