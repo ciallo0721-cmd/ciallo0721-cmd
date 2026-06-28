@@ -55,6 +55,17 @@
 
 ---
 
+### 关注塔菲谢谢喵.top — 雏草姬应援站
+> 雏草姬应援站
+
+- 粉丝自发建立和维护的非盈利性应援站点
+
+*域名我蹲了3个月,终于蹲来了*
+
+[![Website](https://img.shields.io/badge/访问站点-关注塔菲谢谢喵.top-brightgreen?style=flat-square)](https://关注塔菲谢谢喵.top)
+
+---
+
 ### 🧩 taffyineverything — 浏览器插件
 > Chrome / Edge 双端兼容，在任意网页上叠加塔菲图片图层
 
