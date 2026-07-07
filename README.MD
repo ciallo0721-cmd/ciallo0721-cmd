@@ -25,9 +25,6 @@
 
 ---
 
-<table><tr>
-<td width="50%" valign="top">
-
 ### 👤 关于我 / About Me
 
 你好喵～我是 **ciallo0721-cmd**，一个在现实和二次元之间反复横跳的初中生 🐾
@@ -40,22 +37,6 @@
 > 喜欢做「没人做、但有人需要」的小东西——  
 > 动漫人脸识别 · 塔菲浏览器插件 · 大市唱转 UTAU 工具……  
 > 能跑就行，能跑得好更好喵 ✨
-
-</td>
-<td width="50%" valign="top">
-
-### 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ciallo0721-cmd&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00f0ff&icon_color=ff00aa&text_color=8899bb" width="95%"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ciallo0721-cmd&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00f0ff&text_color=8899bb" width="95%"/>
-</p>
-
-</td>
-</tr></table>
 
 ---
 
@@ -139,7 +120,7 @@
 | [dashichang-to-UTAU](https://github.com/ciallo0721-cmd/dashichangtoUTAU) | 大市唱 → UTAU 格式转换 | 🚧 |
 | [Work-Simulator](https://github.com/ciallo0721-cmd/Work-Simulator) | 文字打工模拟游戏 | ✅ |
 | [Crawl-websites](https://github.com/ciallo0721-cmd/Crawlwebsitesautomatically) | B 站视频爬虫 | ✅ |
-| Eras 二游框架 | Java 21 + JavaFX 桌面聊天应用 | 🚧 |
+| AI 智能体框架-Eras | Java 21 + JavaFX 桌面聊天应用 | 🚧 |
 
 </details>
 
@@ -219,7 +200,7 @@
 - 🎵 **dashichang-to-UTAU** — 大市唱格式转换  
 - 🧩 **taffyineverything** — Chrome/Edge 插件适配  
 - 🦴 **人体关键点检测** — 模块化架构（MoeFace 对接）  
-- 🎮 **Eras 二游框架** — Java 21 + JavaFX + AI
+- 🎮 **AI 智能体框架-Eras** — Java 21 + JavaFX + AI
 
 </td>
 <td width="50%" valign="top">
