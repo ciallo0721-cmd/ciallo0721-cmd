@@ -1,0 +1,204 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="100%" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <!-- 背景渐变 -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#060b1a"/>
+      <stop offset="50%" stop-color="#0f1530"/>
+      <stop offset="100%" stop-color="#060b1a"/>
+    </linearGradient>
+    <!-- 青色渐变 -->
+    <linearGradient id="cyanGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00f0ff"/>
+      <stop offset="100%" stop-color="#00c0dd"/>
+    </linearGradient>
+    <!-- 紫红渐变 -->
+    <linearGradient id="pinkGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff00aa"/>
+      <stop offset="100%" stop-color="#cc0088"/>
+    </linearGradient>
+
+    <!-- 辉光滤镜 -->
+    <filter id="glowCyan" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="b1"/>
+      <feGaussianBlur stdDeviation="6" result="b2"/>
+      <feMerge><feMergeNode in="b2"/><feMergeNode in="b1"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glowPink" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b1"/>
+      <feGaussianBlur stdDeviation="8" result="b2"/>
+      <feMerge><feMergeNode in="b2"/><feMergeNode in="b1"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glowGreen" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="b1"/>
+      <feMerge><feMergeNode in="b1"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <!-- CRT 扫描线 -->
+    <pattern id="crt" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="2" fill="transparent"/>
+      <rect y="2" width="4" height="2" fill="#000" opacity="0.12"/>
+    </pattern>
+
+    <!-- 网格 -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#00f0ff" stroke-width="0.25" opacity="0.10"/>
+      <circle cx="0" cy="0" r="0.8" fill="#00f0ff" opacity="0.08"/>
+      <circle cx="40" cy="40" r="0.6" fill="#ff00aa" opacity="0.06"/>
+    </pattern>
+
+    <!-- 电路纹理 -->
+    <pattern id="circuit" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M 20,10 h 20 v 15 h -10 v 10 h 15" fill="none" stroke="#00f0ff" stroke-width="0.4" opacity="0.12"/>
+      <path d="M 60,50 h 15 v -15" fill="none" stroke="#ff00aa" stroke-width="0.3" opacity="0.08"/>
+      <circle cx="45" cy="25" r="1.2" fill="#00f0ff" opacity="0.15"/>
+      <circle cx="60" cy="35" r="1" fill="#ff00aa" opacity="0.1"/>
+    </pattern>
+  </defs>
+
+  <!-- ========== 背景 ========== -->
+  <rect width="1200" height="340" fill="url(#bg)"/>
+  <rect width="1200" height="340" fill="url(#grid)"/>
+  <rect width="1200" height="340" fill="url(#circuit)"/>
+
+  <!-- 光斑 -->
+  <ellipse cx="250" cy="60" rx="280" ry="60" fill="#00f0ff" opacity="0.025"/>
+  <ellipse cx="1000" cy="280" rx="200" ry="50" fill="#ff00aa" opacity="0.02"/>
+
+  <!-- ========== 终端窗口外框 ========== -->
+  <rect x="18" y="14" width="1164" height="312" rx="8" ry="8"
+        fill="none" stroke="#00f0ff" stroke-width="0.8" opacity="0.3"/>
+  <rect x="20" y="16" width="1160" height="308" rx="7" ry="7"
+        fill="none" stroke="#00f0ff" stroke-width="1.5" opacity="0.15"/>
+
+  <!-- 标题栏 -->
+  <rect x="20" y="16" width="1160" height="28" rx="7" ry="7" fill="#0a1030" stroke="#00f0ff" stroke-width="0.5" opacity="0.4"/>
+  <!-- 遮罩下圆角 -->
+  <rect x="20" y="30" width="1160" height="14" fill="#0a1030" opacity="0.4"/>
+
+  <!-- 窗口按钮 -->
+  <circle cx="40" cy="30" r="5" fill="#ff5f56" opacity="0.7"/>
+  <circle cx="58" cy="30" r="5" fill="#ffbd2e" opacity="0.7"/>
+  <circle cx="76" cy="30" r="5" fill="#27c93f" opacity="0.7" filter="url(#glowGreen)"/>
+
+  <!-- 标题栏文字 -->
+  <text x="600" y="34" text-anchor="middle" font-family="'Courier New',monospace" font-size="10"
+        fill="#00f0ff" opacity="0.5" letter-spacing="4">CIALLO://TERMINAL — NODE:ACTIVE</text>
+
+  <!-- ========== 终端内容区 ========== -->
+
+  <!-- 提示符行 1 -->
+  <text x="40" y="68" font-family="'Courier New',monospace" font-size="11" fill="#00ff88" opacity="0.8" filter="url(#glowGreen)">
+    <tspan fill="#666">root@ciallo ~ $</tspan>
+    <tspan fill="#00f0ff" font-size="10"> ./init --profile</tspan>
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="4s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- 伪终端输出 -->
+  <text x="40" y="86" font-family="'Courier New',monospace" font-size="9" fill="#aabbcc" opacity="0.45">
+    [OK] Loading user profile...
+  </text>
+  <text x="40" y="99" font-family="'Courier New',monospace" font-size="9" fill="#aabbcc" opacity="0.35">
+    [OK] Identity: <tspan fill="#00f0ff">INFP</tspan> | Node: <tspan fill="#ff00aa">INDIE_DEV</tspan> | Uptime: 15y
+  </text>
+
+  <!-- ========== 主标题 ========== -->
+  <text x="55" y="148" font-family="'Courier New',monospace" font-size="50" font-weight="bold"
+        fill="url(#cyanGrad)" filter="url(#glowCyan)" letter-spacing="6">
+    Ciall
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="5s" repeatCount="indefinite"/>
+  </text>
+  <text x="235" y="148" font-family="'Courier New',monospace" font-size="50" font-weight="bold"
+        fill="url(#pinkGrad)" filter="url(#glowPink)" letter-spacing="6">
+    o0721-cmd
+  </text>
+
+  <!-- 光标闪烁 -->
+  <rect x="560" y="108" width="3" height="40" fill="#00f0ff" opacity="0.9" filter="url(#glowCyan)">
+    <animate attributeName="opacity" values="0.9;0.1;0.9" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- 副标题 -->
+  <text x="55" y="174" font-family="'Courier New',monospace" font-size="12" fill="#8899bb" opacity="0.65" letter-spacing="2">
+    ▌ 初中生独立开发者  ·  VTuber 爱好者  ·  赛博朋克症候群
+  </text>
+
+  <!-- ========== 标签徽章 ========== -->
+  <g transform="translate(55,190)">
+    <!-- INFP -->
+    <rect x="0" y="0" width="64" height="22" rx="2" fill="#0a0e27" stroke="#00f0ff" stroke-width="0.8" opacity="0.7"/>
+    <text x="32" y="15" text-anchor="middle" font-family="monospace" font-size="9" fill="#00f0ff">INFP</text>
+
+    <!-- Python -->
+    <rect x="72" y="0" width="76" height="22" rx="2" fill="#0a0e27" stroke="#ff00aa" stroke-width="0.8" opacity="0.7"/>
+    <text x="110" y="15" text-anchor="middle" font-family="monospace" font-size="9" fill="#ff00aa">PYTHON</text>
+
+    <!-- AI -->
+    <rect x="156" y="0" width="52" height="22" rx="2" fill="#0a0e27" stroke="#00f0ff" stroke-width="0.8" opacity="0.7"/>
+    <text x="182" y="15" text-anchor="middle" font-family="monospace" font-size="9" fill="#00f0ff">AI</text>
+
+    <!-- JS -->
+    <rect x="216" y="0" width="40" height="22" rx="2" fill="#0a0e27" stroke="#ff00aa" stroke-width="0.8" opacity="0.7"/>
+    <text x="236" y="15" text-anchor="middle" font-family="monospace" font-size="9" fill="#ff00aa">JS</text>
+
+    <!-- VTuber -->
+    <rect x="264" y="0" width="72" height="22" rx="2" fill="#0a0e27" stroke="#00f0ff" stroke-width="0.8" opacity="0.7"/>
+    <text x="300" y="15" text-anchor="middle" font-family="monospace" font-size="9" fill="#00f0ff">VTUBER</text>
+
+    <!-- CYBER -->
+    <rect x="348" y="0" width="62" height="22" rx="2" fill="#0a0e27" stroke="#ff00aa" stroke-width="0.8" opacity="0.7"/>
+    <text x="379" y="15" text-anchor="middle" font-family="monospace" font-size="9" fill="#ff00aa">CYBER</text>
+  </g>
+
+  <!-- ========== 右侧状态面板 ========== -->
+  <g transform="translate(670,80)">
+    <!-- 状态框 -->
+    <rect x="0" y="0" width="480" height="155" rx="4" fill="#0a1030" stroke="#00f0ff" stroke-width="0.6" opacity="0.35"/>
+
+    <!-- 状态框标题 -->
+    <text x="16" y="18" font-family="'Courier New',monospace" font-size="9" fill="#00f0ff" opacity="0.6">┌─ NODE STATUS ───────────────┐</text>
+    <text x="16" y="140" font-family="'Courier New',monospace" font-size="9" fill="#00f0ff" opacity="0.6">└──────────────────────────────┘</text>
+
+    <!-- 系统指标 -->
+    <text x="24" y="38" font-family="'Courier New',monospace" font-size="9" fill="#889">
+      CONNECTION  <tspan fill="#55ff88">● ONLINE</tspan>
+      <animate attributeName="fill" values="#889" dur="6s" repeatCount="indefinite"/>
+    </text>
+    <text x="24" y="54" font-family="'Courier New',monospace" font-size="9" fill="#667">  UPTIME: 365d 12h  <tspan fill="#00f0ff" opacity="0.5">|</tspan>   NODE: 01</text>
+    <text x="24" y="70" font-family="'Courier New',monospace" font-size="9" fill="#667">  CPU: <tspan fill="#55ff88">4.2%</tspan>  <tspan fill="#00f0ff" opacity="0.5">|</tspan>  MEM: <tspan fill="#ffbd2e">3.1G/8G</tspan></text>
+
+    <!-- 项目节点 -->
+    <text x="24" y="95" font-family="'Courier New',monospace" font-size="9" fill="#aabbcc" opacity="0.7">ACTIVE PROJECTS:</text>
+    <circle cx="30" cy="110" r="2.5" fill="#00f0ff" filter="url(#glowCyan)"/>
+    <text x="40" y="113" font-family="'Courier New',monospace" font-size="8" fill="#889">MoeFace v3.0</text>
+    <circle cx="180" cy="110" r="2.5" fill="#ff00aa" filter="url(#glowPink)"/>
+    <text x="190" y="113" font-family="'Courier New',monospace" font-size="8" fill="#889">taffyineverything</text>
+    <circle cx="350" cy="110" r="2.5" fill="#00f0ff" opacity="0.5"/>
+    <text x="360" y="113" font-family="'Courier New',monospace" font-size="8" fill="#667">dashichang-UTAU</text>
+  </g>
+
+  <!-- 右下角二进制装饰 -->
+  <g font-family="'Courier New',monospace" font-size="7" fill="#00f0ff" opacity="0.2">
+    <text x="720" y="260">01000011 01001001 01000001 01001100 01001100 01001111</text>
+    <text x="720" y="272">01001101 01010010 01000101 01000001 01001101 01000100</text>
+  </g>
+
+  <!-- 底部状态栏 -->
+  <g transform="translate(0,295)">
+    <rect x="25" y="0" width="1150" height="22" rx="3" fill="#0a1030" stroke="#00f0ff" stroke-width="0.4" opacity="0.3"/>
+    <text x="40" y="15" font-family="'Courier New',monospace" font-size="9" fill="#55ff88" filter="url(#glowGreen)">
+      <tspan fill="#666">[NORMAL]</tspan>
+      <tspan fill="#55ff88"> ● CONNECTED</tspan>
+      <tspan fill="#444" font-size="8"> ─────────────────── </tspan>
+      <tspan fill="#666">ENC: AES-256</tspan>
+    </text>
+    <text x="1120" y="15" text-anchor="end" font-family="'Courier New',monospace" font-size="9" fill="#ff00aa" opacity="0.6">SYN_ACK • 2026</text>
+  </g>
+
+  <!-- CRT 扫描线覆盖 -->
+  <rect width="1200" height="340" fill="url(#crt)" opacity="0.5"/>
+
+  <!-- 对角线扫描线动画 -->
+  <rect x="-200" y="-50" width="200" height="3" fill="#00f0ff" opacity="0.08" transform="rotate(15, 0, 0)">
+    <animate attributeName="x" from="-200" to="1400" dur="8s" repeatCount="indefinite"/>
+  </rect>
+</svg>

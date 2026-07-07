@@ -1,171 +1,251 @@
 # Ciallo(∠・ω< )⌒☆
 
-你们好啊，我是 **ciallo0721-cmd** —— 一个爱折腾代码的脆皮初中生喵  
-弗雷尔卓德人 · 嘉豪(bushi) · **INFP** · 雏草姬
-
-[![GitHub followers](https://img.shields.io/github/followers/ciallo0721-cmd?style=flat-square&color=ff6b9d)](https://github.com/ciallo0721-cmd)
-[![Website](https://img.shields.io/badge/Website-ciallo0721--cmd.top-blue?style=flat-square)](https://ciallo0721-cmd.top)
-[![Bilibili](https://img.shields.io/badge/Bilibili-丛雨丸--pink?style=flat-square&logo=bilibili)](https://space.bilibili.com/478967440)
-
-小号：[ciallo0721-ccmd](https://github.com/Ciallo0721-ccmd/)
+<p align="center">
+  <img src="assets/banner.svg" width="100%" alt="ciallo0721-cmd terminal">
+</p>
 
 ---
 
-## 关于我 / About Me
+<table><tr><td>
 
-```
-🎓 在校初中生 + 独立开发者
-🌏 来自中国🇨🇳
-🧠 MBTI: INFP
-🐱 VTuber 文化重度爱好者
-💻 全栈野路子 · AI 工具 · 浏览器插件 · Python 脚本
-🥰 雏草姬
-```
+> 在现实和二次元之间反复横跳的脆皮初中生 · INFP · 雏草姬  
+> 一个爱折腾代码、把"塔菲浓度"塞进所有项目里的野生开发者喵
 
-- 喜欢做一些**没人做、但有人需要**的小工具
-- VTuber 文化铁粉，项目里 taffy 出没率 120%
-- 代码风格：能跑就行，能跑得好更好喵
-- 常用技术栈：Python · JavaScript · HTML/CSS · Node.js
+</td></tr></table>
 
----
+<p align="center">
+  <a href="https://github.com/ciallo0721-cmd"><img src="https://img.shields.io/github/followers/ciallo0721-cmd?style=for-the-badge&color=ff6b9d&labelColor=1a1a2e"/></a>
+  <a href="https://ciallo0721-cmd.top"><img src="https://img.shields.io/badge/WEBSITE-ciallo0721--cmd.top-00f0ff?style=for-the-badge&labelColor=1a1a2e"/></a>
+  <a href="https://space.bilibili.com/478967440"><img src="https://img.shields.io/badge/BILIBILI-丛雨丸--ff00aa?style=for-the-badge&labelColor=1a1a2e&logo=bilibili"/></a>
+</p>
 
-## 项目展示 / Projects
-
-### 🔍 MoeFace — 动漫人脸识别系统
-> 基于 FaceNet + LBP 的 VTuber / 动漫角色识别工具
-
-- 支持图片 / 视频 / 摄像头实时识别，自动标注角色名 + 相似度
-- GUI 拖拽操作，内置角色别名管理
-- 支持 43+ 角色、2150+ 图片特征库（含永雏塔菲、东雪莲、Neuro-sama 等）
-- 提供 EXE 免安装版，无需配置 Python 环境
-
-[![GitHub](https://img.shields.io/badge/GitHub-MoeFace-black?style=flat-square&logo=github)](https://github.com/ciallo0721-cmd/MoeFace)
-
+<p align="center">
+  <sub>小号：<a href="https://github.com/Ciallo0721-ccmd/">ciallo0721-ccmd</a></sub>
+</p>
 
 ---
 
-### 🌐 ciallo0721-cmd.top — 个人站点 & 博客
-> 主站 + GitHub Pages 博客，持续更新中
+<table><tr>
+<td width="50%" valign="top">
 
-- 20+ 篇技术博客（含 AI / VTuber / 开发笔记）
-- 内置工具页：VTuber 人格测试、动漫色彩分析器、Ren'Py 模板生成器、VTuber 名称生成器
-- 自定义视频播放器 · 代码高亮 · 图片放大 · SEO 优化
+### 👤 关于我 / About Me
 
-[![Website](https://img.shields.io/badge/访问站点-ciallo0721--cmd.top-brightgreen?style=flat-square)](https://ciallo0721-cmd.top)
+你好喵～我是 **ciallo0721-cmd**，一个在现实和二次元之间反复横跳的初中生 🐾
 
----
+- 🌞 白天：坐在教室里的脆皮学生  
+- 🌙 晚上：开着 MoeFace 训练模型的野生开发者  
+- 💭 信仰：INFP · 雏草姬  
+- 🎯 主线任务：把"塔菲浓度"塞进所有项目里  
 
-### 关注塔菲谢谢喵.top — 雏草姬应援站
-> 雏草姬应援站
+> 喜欢做「没人做、但有人需要」的小东西——  
+> 动漫人脸识别 · 塔菲浏览器插件 · 大市唱转 UTAU 工具……  
+> 能跑就行，能跑得好更好喵 ✨
 
-- 粉丝自发建立和维护的非盈利性应援站点
+</td>
+<td width="50%" valign="top">
 
-*域名我蹲了3个月,终于蹲来了*
+### 📊 GitHub Stats
 
-[![Website](https://img.shields.io/badge/访问站点-关注塔菲谢谢喵.top-brightgreen?style=flat-square)](https://关注塔菲谢谢喵.top)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=ciallo0721-cmd&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00f0ff&icon_color=ff00aa&text_color=8899bb" width="95%"/>
+</p>
 
----
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ciallo0721-cmd&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00f0ff&text_color=8899bb" width="95%"/>
+</p>
 
-### 🧩 taffyineverything — 浏览器插件
-> Chrome / Edge 双端兼容，在任意网页上叠加塔菲图片图层
-
-- 在视频封面 / 图片 / 缩略图上以独立图层显示自定义图片
-- 支持大小调整、位置调整、随时开关
-- 专为雏草姬设计，一键让塔菲出现在任何地方喵
-
-[![GitHub](https://img.shields.io/badge/GitHub-taffyineverything-black?style=flat-square&logo=github)](https://github.com/ciallo0721-cmd/taffyineverything)
-
----
-
-### 🎮 Work-Simulator — 打工模拟器
-> 一个基于文本的打工模拟游戏，支持自定义职业和事件
-
-[![GitHub](https://img.shields.io/badge/GitHub-Work--Simulator-black?style=flat-square&logo=github)](https://github.com/ciallo0721-cmd/Work-Simulator)
+</td>
+</tr></table>
 
 ---
 
-### 🕷️ Crawl-websites-automatically — bilibili视频爬虫
-> 可配置的通用bilibili视频爬取脚本
+## 🚀 项目展示 / Projects
 
-- 支持定时任务、内容入库
-- 适合批量采集静态页面数据
+<p align="center">
+  <sub>按开发状态分为三档：<b>主力项目</b>长期维护 | <b>工具&amp;网站</b>日常使用 | <b>兴趣实验</b>随手做喵</sub>
+</p>
 
-[![GitHub](https://img.shields.io/badge/GitHub-Crawlwebsitesautomatically-black?style=flat-square&logo=github)](https://github.com/ciallo0721-cmd/Crawl-websites-automatically)
+<br>
+
+<table><tr>
+<td width="50%" valign="top">
+
+### 🌟 主力项目
+
+#### 🔍 [MoeFace](https://github.com/ciallo0721-cmd/MoeFace)
+
+> 基于 FaceNet + LBP 的动漫人脸识别系统
+
+- 📷 图片 / 视频 / 摄像头 实时识别  
+- 🎯 43+ 角色 · 2150+ 图片特征库  
+- 🖥️ GUI 拖拽 · 别名管理 · EXE 免安装  
+- 🧠 v3.0：MediaPipe + YOLO-pose + Whisper  
+
+[![Repo](https://img.shields.io/badge/GitHub-MoeFace-00f0ff?style=flat-square&logo=github)](https://github.com/ciallo0721-cmd/MoeFace)
+
+<br>
+
+#### 🧩 [taffyineverything](https://github.com/ciallo0721-cmd/taffyineverything)
+
+> Chrome / Edge 浏览器插件，任意网页叠加塔菲图层
+
+- 🎨 独立图层 · 大小位置可调 · 一键开关  
+- 💖 专为雏草姬设计  
+
+[![Repo](https://img.shields.io/badge/GitHub-taffyineverything-ff00aa?style=flat-square&logo=github)](https://github.com/ciallo0721-cmd/taffyineverything)
+
+</td>
+<td width="50%" valign="top">
+
+### 🌐 网站 & 工具
+
+#### 🏠 [ciallo0721-cmd.top](https://ciallo0721-cmd.top)
+
+> 个人站点 + GitHub Pages 博客
+
+- 📝 20+ 篇技术博客（AI / VTuber / 心理学）  
+- 🛠️ 内置工具：人格测试 · 色彩分析器 · 名称生成器  
+- 🎬 自研组件：视频播放器 · 代码高亮 · SEO  
+
+[![Site](https://img.shields.io/badge/访问-ciallo0721--cmd.top-00f0ff?style=flat-square)](https://ciallo0721-cmd.top)
+
+<br>
+
+#### 🐱 [关注塔菲谢谢喵.top](https://xn--d6qr7hrtcb06avk0aljka.top)
+
+> 雏草姬应援站 · 非盈利粉丝站点  
+
+> *域名蹲了 3 个月才蹲来的，懂的自懂喵*
+
+[![Site](https://img.shields.io/badge/访问-关注塔菲谢谢喵.top-ff00aa?style=flat-square)](https://xn--d6qr7hrtcb06avk0aljka.top)
+
+<br>
+
+#### 🧠 [VTuber 人格测试](https://ciallo0721-cmd.top/tools/vtuber-personality-test/)
+
+> 测测你最像哪种 VTuber
+
+- 3 档难度 · 最高 90 题 · 结果分享卡片  
+
+</td>
+</tr></table>
+
+<details>
+<summary><b>🧪 更多兴趣项目……</b></summary>
+<br>
+
+| 项目 | 说明 | 状态 |
+|------|------|:---:|
+| [dashichang-to-UTAU](https://github.com/ciallo0721-cmd/dashichangtoUTAU) | 大市唱 → UTAU 格式转换 | 🚧 |
+| [Work-Simulator](https://github.com/ciallo0721-cmd/Work-Simulator) | 文字打工模拟游戏 | ✅ |
+| [Crawl-websites](https://github.com/ciallo0721-cmd/Crawlwebsitesautomatically) | B 站视频爬虫 | ✅ |
+| Eras 二游框架 | Java 21 + JavaFX 桌面聊天应用 | 🚧 |
+
+</details>
+
 ---
 
-### 🎵 dashichang-to-UTAU — 大市唱转 UTAU 工具 *(开发中)*
-> 将大市唱 DSC/UFDATA 项目文件转换为 UTAU 兼容格式
+## 🛠️ 技术栈 / Tech Stack
 
-- 输出 MID / SMF / UST 文件
-- 支持音符 / 歌词 / 时序完整迁移
-- Python 实现，面向语音合成爱好者
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=1a1a2e"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000&labelColor=1a1a2e"/>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white&labelColor=1a1a2e"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white&labelColor=1a1a2e"/>
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white&labelColor=1a1a2e"/>
+  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=sharp&logoColor=white&labelColor=1a1a2e"/>
+</p>
 
-[![GitHub](https://img.shields.io/badge/GitHub-dashichangtoUTAU-black?style=flat-square&logo=github)](https://github.com/ciallo0721-cmd/dashichang-to-UTAU)
+<p align="center">
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white&labelColor=1a1a2e"/>
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white&labelColor=1a1a2e"/>
+  <img src="https://img.shields.io/badge/MediaPipe-0097A7?style=for-the-badge&logo=mediapipe&logoColor=white&labelColor=1a1a2e"/>
+  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white&labelColor=1a1a2e"/>
+  <img src="https://img.shields.io/badge/JavaFX-ED8B00?style=for-the-badge&logo=java&logoColor=white&labelColor=1a1a2e"/>
+</p>
 
----
-
-### 🧠 VTuber 人格测试 — VTB 测试
-> 通过题目匹配你最像哪种类型的 VTuber
-
-- 3 档难度：简单 / 正常（推荐）/ 复杂（90 题）
-- 支持 NSFW 敏感题勾选，* 标记多选题
-- 在线体验：[https://ciallo0721-cmd.top/tools/vtuber-personality-test/](https://ciallo0721-cmd.top/tools/vtuber-personality-test/)
-
----
-
-## 技术栈 / Tech Stack
-
-| 类别 | 技术 |
-|------|------|
-| **语言** | Python · JavaScript · HTML/CSS |
-| **AI / ML** | MediaPipe · FaceNet · PyTorch · EasyOCR · OpenCV |
-| **前端** | 原生 JS + HTML5 · 无框架洁癖 |
-| **工具链** | VS Code · GitHub Desktop · PowerShell |
-| **部署** | GitHub Pages · GitHub Actions |
-| **平台** | Windows 10/11 |
+<p align="center">
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white&labelColor=1a1a2e"/>
+  <img src="https://img.shields.io/badge/GitHub_Desktop-6e40c9?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1a2e"/>
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white&labelColor=1a1a2e"/>
+  <img src="https://img.shields.io/badge/GitHub_Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white&labelColor=1a1a2e"/>
+</p>
 
 ---
 
-## 联系方式 / Contact
+## 📬 联系方式 / Contact
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 主要平台
 
 | 平台 | 账号 |
 |------|------|
-| **QQ** | [3627742771](https://qm.qq.com/cgi-bin/qm/qr?k=ciallo) |
-| **邮箱** | ciallo0721cmd@gmail.com · 3627742771@qq.com · nb666mc26@outlook.com |
-| **GitHub** | [@ciallo0721-cmd](https://github.com/ciallo0721-cmd) |
-| **Bilibili** | [丛雨丸-](https://space.bilibili.com/478967440) |
-| **X / Twitter** | [@ciallo0721cmd](https://x.com/ciallo0721cmd?s=21) |
-| **YouTube** | [Ciallo0721-cmd](https://www.youtube.com/@ciallo0721-cmd) |
-| **Discord** | [Ciallo0721](https://discord.gg/fx4N3jg6) |
-| **Steam** | [aaa关注塔菲喵](https://steamcommunity.com/profiles/76561199473709076/) |
-| **爱发电** | [赞助我喵～](https://ifdian.net/a/ciallo0721-cmd) |
-| **Facebook** | [moyucmd](https://www.facebook.com/profile.php?id=61590168321280) |
-| **Instagram** | [@moyu0721cmd](https://www.instagram.com/moyu0721cmd/) |
+| 💬 **QQ** | [3627742771](https://qm.qq.com/cgi-bin/qm/qr?k=ciallo) |
+| 📧 **邮箱** | ciallo0721cmd@gmail.com |
+| 🐙 **GitHub** | [@ciallo0721-cmd](https://github.com/ciallo0721-cmd) |
+| 📺 **Bilibili** | [丛雨丸-](https://space.bilibili.com/478967440) |
+| ❤️ **爱发电** | [赞助我喵～](https://ifdian.net/a/ciallo0721-cmd) |
+
+</td>
+<td width="50%" valign="top">
+
+### 其他社交
+
+| 平台 | 账号 |
+|------|------|
+| 𝕏 **Twitter** | [@ciallo0721cmd](https://x.com/ciallo0721cmd) |
+| ▶️ **YouTube** | [Ciallo0721-cmd](https://youtube.com/@ciallo0721-cmd) |
+| 🎮 **Steam** | [aaa关注塔菲喵](https://steamcommunity.com/profiles/76561199473709076) |
+| 💬 **Discord** | [Ciallo0721](https://discord.gg/fx4N3jg6) |
+| 📘 **Facebook** | [moyucmd](https://facebook.com/profile.php?id=61590168321280) |
+| 📷 **Instagram** | [@moyu0721cmd](https://instagram.com/moyu0721cmd) |
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 个人网站 / Website
+## 📡 近期动态 / Recent Activity
 
-🌐 **[https://ciallo0721-cmd.top](https://ciallo0721-cmd.top)**
+<table><tr>
+<td width="50%" valign="top">
 
-含博客、工具集、项目展示，持续施工中喵
+### 🚧 进行中
+
+- 🎵 **dashichang-to-UTAU** — 大市唱格式转换  
+- 🧩 **taffyineverything** — Chrome/Edge 插件适配  
+- 🦴 **人体关键点检测** — 模块化架构（MoeFace 对接）  
+- 🎮 **Eras 二游框架** — Java 21 + JavaFX + AI
+
+</td>
+<td width="50%" valign="top">
+
+### ✅ 近期完工
+
+- 🤖 **MoeFace v3.0** — EXE 版 + Whisper 语音  
+- 🧠 **VTuber 人格测试** — 3 难度完整版  
+- 📝 **博客 #51** — Hololive 龙心事件分析  
+- 🕹️ **Work-Simulator** — 文字冒险核心跑通
+
+</td>
+</tr></table>
+
+> 📝 博客持续更新中：技术向 + 二次元向 + 心理学随笔  
+> 🐙 GitHub 保持常规 push 节奏  
 
 ---
-
-## 近期动态 / Recent Activity
-
-- 🔨 开发中：**dashichang-to-UTAU** 大市唱格式转换工具
-- 🔨 开发中：**taffyineverything** 浏览器插件（Chrome/Edge 双端）
-- 🔨 开发中：人体关键点检测分离式架构（眼睛/四肢/身体独立模块）
-- ✅ 已上线：**MoeFace v3.0** EXE 免安装版
-- ✅ 已上线：**VTuber 人格测试** 3 难度模式完整版
-- 📝 博客更新中，技术向 + 二次元向混合输出
-
----
-
 
 <div align="center">
 
- Ciallo～(∠・ω< )⌒☆ 
+```
+╔══════════════════════════════════════╗
+║   Ciallo～(∠・ω・)⌒☆               ║
+║   关注永雏塔菲喵！关注永雏塔菲谢谢喵！  ║
+╚══════════════════════════════════════╝
+```
 
 </div>
