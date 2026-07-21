@@ -107,17 +107,3 @@ ciallo0721cmd@gmail.com
 ---
 
 
-<div align="center">
-
-
-
-
-
-╔══════════════════════════════╗
-║  Ayase Yukio ✦              ║
-║  Build small things.        ║
-║  Learn every day.           ║
-╚══════════════════════════════╝
-
-
-</div>
