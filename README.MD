@@ -112,14 +112,11 @@ ciallo0721cmd@gmail.com
 
 
 
+
 ╔══════════════════════════════╗
-
 ║  Ayase Yukio ✦              ║
-
 ║  Build small things.        ║
-
 ║  Learn every day.           ║
-
 ╚══════════════════════════════╝
 
 
