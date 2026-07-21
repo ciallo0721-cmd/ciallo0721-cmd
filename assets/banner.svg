@@ -16,6 +16,11 @@
       <stop offset="0%" stop-color="#ff00aa"/>
       <stop offset="100%" stop-color="#cc0088"/>
     </linearGradient>
+    <!-- 绿色渐变 -->
+    <linearGradient id="greenGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00ff88"/>
+      <stop offset="100%" stop-color="#00cc66"/>
+    </linearGradient>
 
     <!-- 辉光滤镜 -->
     <filter id="glowCyan" x="-50%" y="-50%" width="200%" height="200%">
@@ -72,7 +77,6 @@
 
   <!-- 标题栏 -->
   <rect x="20" y="16" width="1160" height="28" rx="7" ry="7" fill="#0a1030" stroke="#00f0ff" stroke-width="0.5" opacity="0.4"/>
-  <!-- 遮罩下圆角 -->
   <rect x="20" y="30" width="1160" height="14" fill="#0a1030" opacity="0.4"/>
 
   <!-- 窗口按钮 -->
@@ -82,34 +86,34 @@
 
   <!-- 标题栏文字 -->
   <text x="600" y="34" text-anchor="middle" font-family="'Courier New',monospace" font-size="10"
-        fill="#00f0ff" opacity="0.5" letter-spacing="4">CIALLO://TERMINAL — NODE:ACTIVE</text>
+        fill="#00f0ff" opacity="0.5" letter-spacing="4">CIALLO://TERMINAL — NODE:AYASE_YUKIO</text>
 
   <!-- ========== 终端内容区 ========== -->
 
   <!-- 提示符行 1 -->
   <text x="40" y="68" font-family="'Courier New',monospace" font-size="11" fill="#00ff88" opacity="0.8" filter="url(#glowGreen)">
     <tspan fill="#666">root@ciallo ~ $</tspan>
-    <tspan fill="#00f0ff" font-size="10"> ./init --profile</tspan>
+    <tspan fill="#00f0ff" font-size="10"> ./init --identity=绫濑雪绪</tspan>
     <animate attributeName="opacity" values="0.8;1;0.8" dur="4s" repeatCount="indefinite"/>
   </text>
 
   <!-- 伪终端输出 -->
   <text x="40" y="86" font-family="'Courier New',monospace" font-size="9" fill="#aabbcc" opacity="0.45">
-    [OK] Loading user profile...
+    [OK] Loading profile...
   </text>
   <text x="40" y="99" font-family="'Courier New',monospace" font-size="9" fill="#aabbcc" opacity="0.35">
-    [OK] Identity: <tspan fill="#00f0ff">INFP</tspan> | Node: <tspan fill="#ff00aa">INDIE_DEV</tspan> | Uptime: 15y
+    [OK] Identity: <tspan fill="#00f0ff">绫濑雪绪 (Ayase Yukio)</tspan> | Role: <tspan fill="#ff00aa">INDIE_DEV</tspan> | Uptime: 15y
   </text>
 
   <!-- ========== 主标题 ========== -->
   <text x="55" y="148" font-family="'Courier New',monospace" font-size="50" font-weight="bold"
         fill="url(#cyanGrad)" filter="url(#glowCyan)" letter-spacing="6">
-    Ciall
+    AYASE
     <animate attributeName="opacity" values="0.85;1;0.85" dur="5s" repeatCount="indefinite"/>
   </text>
-  <text x="235" y="148" font-family="'Courier New',monospace" font-size="50" font-weight="bold"
+  <text x="295" y="148" font-family="'Courier New',monospace" font-size="50" font-weight="bold"
         fill="url(#pinkGrad)" filter="url(#glowPink)" letter-spacing="6">
-    o0721-cmd
+    YUKIO
   </text>
 
   <!-- 光标闪烁 -->
@@ -119,67 +123,96 @@
 
   <!-- 副标题 -->
   <text x="55" y="174" font-family="'Courier New',monospace" font-size="12" fill="#8899bb" opacity="0.65" letter-spacing="2">
-    ▌ 初中生独立开发者  ·  VTuber 爱好者  ·  赛博朋克症候群
+    ▌ 绫濑雪绪  ·  ciallo0721-cmd  ·  初中生独立开发者  ·  VTuber 爱好者
   </text>
 
   <!-- ========== 标签徽章 ========== -->
   <g transform="translate(55,190)">
     <!-- INFP -->
-    <rect x="0" y="0" width="64" height="22" rx="2" fill="#0a0e27" stroke="#00f0ff" stroke-width="0.8" opacity="0.7"/>
-    <text x="32" y="15" text-anchor="middle" font-family="monospace" font-size="9" fill="#00f0ff">INFP</text>
+    <rect x="0" y="0" width="56" height="22" rx="2" fill="#0a0e27" stroke="#00f0ff" stroke-width="0.8" opacity="0.7"/>
+    <text x="28" y="15" text-anchor="middle" font-family="monospace" font-size="9" fill="#00f0ff">INFP</text>
 
-    <!-- Python -->
-    <rect x="72" y="0" width="76" height="22" rx="2" fill="#0a0e27" stroke="#ff00aa" stroke-width="0.8" opacity="0.7"/>
-    <text x="110" y="15" text-anchor="middle" font-family="monospace" font-size="9" fill="#ff00aa">PYTHON</text>
+    <!-- PYTHON -->
+    <rect x="64" y="0" width="76" height="22" rx="2" fill="#0a0e27" stroke="#ff00aa" stroke-width="0.8" opacity="0.7"/>
+    <text x="102" y="15" text-anchor="middle" font-family="monospace" font-size="9" fill="#ff00aa">PYTHON</text>
 
-    <!-- AI -->
-    <rect x="156" y="0" width="52" height="22" rx="2" fill="#0a0e27" stroke="#00f0ff" stroke-width="0.8" opacity="0.7"/>
-    <text x="182" y="15" text-anchor="middle" font-family="monospace" font-size="9" fill="#00f0ff">AI</text>
+    <!-- JAVA -->
+    <rect x="148" y="0" width="56" height="22" rx="2" fill="#0a0e27" stroke="#00f0ff" stroke-width="0.8" opacity="0.7"/>
+    <text x="176" y="15" text-anchor="middle" font-family="monospace" font-size="9" fill="#00f0ff">JAVA</text>
 
     <!-- JS -->
-    <rect x="216" y="0" width="40" height="22" rx="2" fill="#0a0e27" stroke="#ff00aa" stroke-width="0.8" opacity="0.7"/>
-    <text x="236" y="15" text-anchor="middle" font-family="monospace" font-size="9" fill="#ff00aa">JS</text>
+    <rect x="212" y="0" width="40" height="22" rx="2" fill="#0a0e27" stroke="#ff00aa" stroke-width="0.8" opacity="0.7"/>
+    <text x="232" y="15" text-anchor="middle" font-family="monospace" font-size="9" fill="#ff00aa">JS</text>
 
-    <!-- VTuber -->
-    <rect x="264" y="0" width="72" height="22" rx="2" fill="#0a0e27" stroke="#00f0ff" stroke-width="0.8" opacity="0.7"/>
-    <text x="300" y="15" text-anchor="middle" font-family="monospace" font-size="9" fill="#00f0ff">VTUBER</text>
+    <!-- PYTORCH -->
+    <rect x="260" y="0" width="80" height="22" rx="2" fill="#0a0e27" stroke="#00f0ff" stroke-width="0.8" opacity="0.7"/>
+    <text x="300" y="15" text-anchor="middle" font-family="monospace" font-size="9" fill="#00f0ff">PYTORCH</text>
 
-    <!-- CYBER -->
-    <rect x="348" y="0" width="62" height="22" rx="2" fill="#0a0e27" stroke="#ff00aa" stroke-width="0.8" opacity="0.7"/>
-    <text x="379" y="15" text-anchor="middle" font-family="monospace" font-size="9" fill="#ff00aa">CYBER</text>
+    <!-- VTUBER -->
+    <rect x="352" y="0" width="72" height="22" rx="2" fill="#0a0e27" stroke="#ff00aa" stroke-width="0.8" opacity="0.7"/>
+    <text x="388" y="15" text-anchor="middle" font-family="monospace" font-size="9" fill="#ff00aa">VTUBER</text>
   </g>
 
   <!-- ========== 右侧状态面板 ========== -->
   <g transform="translate(670,80)">
     <!-- 状态框 -->
-    <rect x="0" y="0" width="480" height="155" rx="4" fill="#0a1030" stroke="#00f0ff" stroke-width="0.6" opacity="0.35"/>
+    <rect x="0" y="0" width="490" height="210" rx="4" fill="#0a1030" stroke="#00f0ff" stroke-width="0.6" opacity="0.35"/>
 
     <!-- 状态框标题 -->
-    <text x="16" y="18" font-family="'Courier New',monospace" font-size="9" fill="#00f0ff" opacity="0.6">┌─ NODE STATUS ───────────────┐</text>
-    <text x="16" y="140" font-family="'Courier New',monospace" font-size="9" fill="#00f0ff" opacity="0.6">└──────────────────────────────┘</text>
+    <text x="16" y="18" font-family="'Courier New',monospace" font-size="8" fill="#00f0ff" opacity="0.6">┌─ TECH STACK ──────────────────────────┐</text>
 
-    <!-- 系统指标 -->
-    <text x="24" y="38" font-family="'Courier New',monospace" font-size="9" fill="#889">
-      CONNECTION  <tspan fill="#55ff88">● ONLINE</tspan>
-      <animate attributeName="fill" values="#889" dur="6s" repeatCount="indefinite"/>
+    <!-- 语言 -->
+    <text x="20" y="38" font-family="'Courier New',monospace" font-size="9" fill="#667">
+      LANG
     </text>
-    <text x="24" y="54" font-family="'Courier New',monospace" font-size="9" fill="#667">  UPTIME: 365d 12h  <tspan fill="#00f0ff" opacity="0.5">|</tspan>   NODE: 01</text>
-    <text x="24" y="70" font-family="'Courier New',monospace" font-size="9" fill="#667">  CPU: <tspan fill="#55ff88">4.2%</tspan>  <tspan fill="#00f0ff" opacity="0.5">|</tspan>  MEM: <tspan fill="#ffbd2e">3.1G/8G</tspan></text>
+    <text x="20" y="52" font-family="'Courier New',monospace" font-size="9" fill="#aabbcc" opacity="0.5">
+      Python · JavaScript · Java · HTML/CSS
+    </text>
 
-    <!-- 项目节点 -->
-    <text x="24" y="95" font-family="'Courier New',monospace" font-size="9" fill="#aabbcc" opacity="0.7">ACTIVE PROJECTS:</text>
-    <circle cx="30" cy="110" r="2.5" fill="#00f0ff" filter="url(#glowCyan)"/>
-    <text x="40" y="113" font-family="'Courier New',monospace" font-size="8" fill="#889">MoeFace v3.0</text>
-    <circle cx="180" cy="110" r="2.5" fill="#ff00aa" filter="url(#glowPink)"/>
-    <text x="190" y="113" font-family="'Courier New',monospace" font-size="8" fill="#889">taffyineverything</text>
-    <circle cx="350" cy="110" r="2.5" fill="#00f0ff" opacity="0.5"/>
-    <text x="360" y="113" font-family="'Courier New',monospace" font-size="8" fill="#667">dashichang-UTAU</text>
+    <!-- AI/CV -->
+    <text x="20" y="72" font-family="'Courier New',monospace" font-size="9" fill="#667">
+      AI/CV
+    </text>
+    <text x="20" y="86" font-family="'Courier New',monospace" font-size="9" fill="#aabbcc" opacity="0.5">
+      PyTorch · OpenCV · MediaPipe · FaceNet
+    </text>
+
+    <!-- Web -->
+    <text x="20" y="106" font-family="'Courier New',monospace" font-size="9" fill="#667">
+      WEB
+    </text>
+    <text x="20" y="120" font-family="'Courier New',monospace" font-size="9" fill="#aabbcc" opacity="0.5">
+      Flask · Jekyll · GitHub Pages · Actions
+    </text>
+
+    <!-- 分隔线 -->
+    <text x="16" y="142" font-family="'Courier New',monospace" font-size="8" fill="#00f0ff" opacity="0.6">├─ CONTACT ───────────────────────────┤</text>
+
+    <!-- 联系方式 -->
+    <text x="20" y="160" font-family="'Courier New',monospace" font-size="9" fill="#889">
+      <tspan fill="#00f0ff" opacity="0.5">●</tspan>
+      <tspan fill="#667"> GitHub:</tspan>
+      <tspan fill="#55ff88"> @ciallo0721-cmd</tspan>
+    </text>
+    <text x="20" y="176" font-family="'Courier New',monospace" font-size="9" fill="#889">
+      <tspan fill="#ff00aa" opacity="0.5">●</tspan>
+      <tspan fill="#667"> Email:</tspan>
+      <tspan fill="#aabbcc"> ciallo0721cmd@gmail.com</tspan>
+    </text>
+    <text x="20" y="192" font-family="'Courier New',monospace" font-size="9" fill="#889">
+      <tspan fill="#00f0ff" opacity="0.5">●</tspan>
+      <tspan fill="#667"> Web:</tspan>
+      <tspan fill="#aabbcc"> ciallo0721-cmd.top</tspan>
+    </text>
+
+    <!-- 底部 -->
+    <text x="16" y="208" font-family="'Courier New',monospace" font-size="8" fill="#00f0ff" opacity="0.6">└──────────────────────────────────────────┘</text>
   </g>
 
   <!-- 右下角二进制装饰 -->
   <g font-family="'Courier New',monospace" font-size="7" fill="#00f0ff" opacity="0.2">
     <text x="720" y="260">01000011 01001001 01000001 01001100 01001100 01001111</text>
-    <text x="720" y="272">01001101 01010010 01000101 01000001 01001101 01000100</text>
+    <text x="720" y="272">01000010 01011001 01000101 00100000 01011001 01010101</text>
   </g>
 
   <!-- 底部状态栏 -->
@@ -191,7 +224,7 @@
       <tspan fill="#444" font-size="8"> ─────────────────── </tspan>
       <tspan fill="#666">ENC: AES-256</tspan>
     </text>
-    <text x="1120" y="15" text-anchor="end" font-family="'Courier New',monospace" font-size="9" fill="#ff00aa" opacity="0.6">SYN_ACK • 2026</text>
+    <text x="1120" y="15" text-anchor="end" font-family="'Courier New',monospace" font-size="9" fill="#ff00aa" opacity="0.6">#绫濑雪绪 • 2026</text>
   </g>
 
   <!-- CRT 扫描线覆盖 -->
