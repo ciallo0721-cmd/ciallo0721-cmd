@@ -194,6 +194,20 @@ const status = {
 
 ---
 
+---
+
+## 🎵 音乐测试区
+
+### ① iframe 网易云播放器
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1892579773&auto=1&height=66"></iframe>
+
+### ② 本地 mp3
+<audio src="./1.mp3" controls autoplay loop>
+  你的浏览器不支持音频标签
+</audio>
+
+---
+
 <div align="center">
 
 ```
