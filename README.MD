@@ -160,6 +160,8 @@ const contact = {
   // 社交
   twitter:  "https://x.com/ciallo0721cmd",
   youtube:  "https://youtube.com/@ciallo0721-cmd",
+  tiktok:   "https://www.tiktok.com/@ciallo0721cmd",
+  litlink:  "https://lit.link/zh-tw/ciallo0721cmd",
   discord:  "https://discord.gg/fx4N3jg6",
   steam:    "https://steamcommunity.com/profiles/76561199473709076",
   facebook: "https://facebook.com/profile.php?id=61590168321280",
