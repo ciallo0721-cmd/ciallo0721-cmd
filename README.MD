@@ -76,7 +76,6 @@ const contact = {
 </p>
 
 ---
-<p align="center">
   ```
   Welcome to our gitting
   Are you into committing?
@@ -161,6 +160,4 @@ const contact = {
   Just debugging,just debugging
   ```
 (取自justmonika)
-```
-</p>
 
