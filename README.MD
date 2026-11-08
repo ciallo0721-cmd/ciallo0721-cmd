@@ -76,6 +76,8 @@ const contact = {
 </p>
 
 ---
+<details>
+<summary>喵喵喵</summary>
   ```
   Welcome to our gitting
   Are you into committing?
@@ -161,3 +163,4 @@ const contact = {
   ```
 (取自justmonika)
 
+</details>
